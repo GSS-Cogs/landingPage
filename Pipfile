@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+gss-utils = {git = "https://github.com/GSS-Cogs/gss-utils.git",ref = "v0.8.5"}
+databaker = {git = "https://github.com/GSS-Cogs/databaker.git",ref = "gss_speedup"}
+flask-cors = "*"
+markdown = "*"
+messytables = "==0.15.1"
+html2text = "*"
+msgpack = "*"
+cachecontrol = "*"
+
+[requires]
+python_version = "3.7"

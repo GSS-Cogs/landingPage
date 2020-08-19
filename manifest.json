@@ -1,0 +1,25 @@
+{
+  "name": "COGS Landing Page",
+  "version": "1.0",
+  "description": "Check a landing page for metadata.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "icon-48.png",
+    "default_title" : "Check landing page",
+    "default_popup": "popup.html"
+  },
+  "permissions" : [
+    "declarativeContent",
+    "activeTab"
+  ],
+  "icons" : {
+    "16" : "icon-16.png",
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
