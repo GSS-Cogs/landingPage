@@ -1,6 +1,6 @@
-FROM python:3.7-alpine
+FROM python:3.7
 
 COPY Pipfile.lock Pipfile app.py /app/
 WORKDIR /app
-RUN apk add --no-cache git build-base libxml2-dev libxslt-dev; pip install pipenv ; pipenv sync
-CMD pipenv run flask
+RUN pip install pipenv ; pipenv install --system
+CMD flask run
