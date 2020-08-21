@@ -1,21 +1,21 @@
+
+// TODO - needs to be dynamic somehow or we'll keep having to updating this list
 const urlPrefixes = [
-    "https://www.gov.uk/government/",
+    "https://www.gov.uk/",
     "https://gov.wales/",
-    "https://api.beta.ons.gov.uk",
+    "https://api.beta.ons.gov.uk/",
     "https://www.ons.gov.uk/",
     "https://www.gov.uk/government/",
-    "https://www.nrscotland.gov.uk/statistics-and-data/statistics/",
-    "https://www.nisra.gov.uk/publications/",
-    "https://www.uktradeinfo.com/Statistics/Pages/",
-    "https://www.uktradeinfo.com/Statistics/OverseasTradeStatistics/AboutOverseastradeStatistics/Pages/OTSReports.aspx",
-    "https://www.uktradeinfo.com/Statistics/RTS/Pages/default.aspx",
-    "https://www.justice-ni.gov.uk/publications/",
-    "https://www.health-ni.gov.uk/publications/",
-    "http://www.isdscotland.org/Health-Topics/",
-    "https://digital.nhs.uk/data-and-information/publications/statistical/",
-    "https://statswales.gov.wales/Catalogue",
-    "https://www2.gov.scot/Topics/Statistics/Browse/",
-    "https://www.communities-ni.gov.uk/publications/topic",
+    "https://www.nrscotland.gov.uk/",
+    "https://www.nisra.gov.uk/",
+    "https://www.uktradeinfo.com/",
+    "https://www.justice-ni.gov.uk/",
+    "https://www.health-ni.gov.uk/",
+    "http://www.isdscotland.org/",
+    "https://digital.nhs.uk/",
+    "https://statswales.gov.wales/",
+    "https://www2.gov.scot/",
+    "https://www.communities-ni.gov.uk/",
     "https://gov.wales/"
 ];
 
