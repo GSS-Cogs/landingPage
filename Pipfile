@@ -17,6 +17,7 @@ msgpack = "*"
 cachecontrol = "*"
 rdflib = "==4.2.2"
 pandas = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"

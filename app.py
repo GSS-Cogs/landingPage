@@ -68,7 +68,3 @@ def index():
         return markdown(f"# Metadata Error\n\n{errMetadata}")
     except Exception as err:
         return markdown(f"# Error\n\n{err}\n\n{GENERIC_EXCEPTION_HELP}")
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
