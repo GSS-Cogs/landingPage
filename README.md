@@ -21,6 +21,6 @@ Note - if it doesn't appear on your bar you can click the little jigsaw piece an
 If we definetly don't have a scraper for the url you're looking at then the icon will fade out.
 
 If we do have a scraper (or if we _might_ have a scraper) the icon will unfade and you'll be able to click it - doing so will provide more details in one of three ways:
-    * A working scraper will provide a scrape of some basic info.
-    * A broken scraper will tell you it's not working and link to a github issue where you can note the problem url.
-    * Where we have a scraper but it doesnt quite match the url you're looking at, it'll let you know and will provide the related urls that we can scrape.
+    - A working scraper will provide a scrape of some basic info.
+    - A broken scraper will tell you it's not working and link to a github issue where you can note the problem url.
+    - Where we have a scraper but it doesnt quite match the url you're looking at, it'll let you know and will provide the related urls that we can scrape.
